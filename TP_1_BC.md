@@ -16,8 +16,7 @@ on peut chercher un terme particulier dans le manuelle en ecivant `/` suivie de 
 On quitte le manuele en appyuyant sur la touche 'Q'.
 
 4)
-man 6 man
-// TODO //
+`man 6 man` ne trouve pas de 6eme section.
 
 ## Navigation dans l’arborescence des fichiers
 1)
@@ -166,7 +165,8 @@ la commande `find / -name passwd` affiche le nom de tous les fichier se nommant 
 on utilise la commande la commande `find / -name passwd > ~/list_passwd_files.txt 2> /dev/null` pour que la liste des fichiers trouvés soit enregistrée dans le fichier `~/list_passwd_files.txt` et que les erreurs soient redirigées vers le fichier spécial `/dev/null`.
 
 23)
-TODO
+grep ll ne fonctionne pas.
+on ne peut pas trouver cette information avec grep.
 
 24)
 On utilise la commande `locate history.log` pour trouver le fichier history.log.
